@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    
+    <form>
+
+        <label>Student Name</label>
+        <input type="text" minlength="6">
+
+        <br><br>
+
+        <label >Student Email</label>
+        <input type="email" required>
+
+        <br><br>
+
+        <label >Address</label><br>
+        <textarea rows="5"></textarea>
+
+        <br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+        <br><br>
+
+        <label>Select Course</label>
+        <select >
+            <option>Mern Stack Development</option>
+            <option>Data Analytics</option>
+            <option>Artificial Intelligent</option>
+            <option>Cloud Computing</option>
+        </select>
+
+        <br><br>
+        
+        <label >College Name</label>
+        <input type="text" list="college">
+
+        <datalist id="college">
+            <option>RRIMT</option>
+            <option>SRIMT</option>
+            <option>BBDNIIT</option>
+            <option>BBDU</option>
+            <option>Study Hall College</option>
+        </datalist>
+
+
+        <br><br>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html
