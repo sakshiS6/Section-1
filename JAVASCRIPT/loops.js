@@ -65,3 +65,27 @@ const person={
 for(let key in person){
     console.log(key,"=",person[key]);
 }
+
+console.log("----------------------------------")
+
+for(let i=0; i<10; i++){
+    console.log(i);
+}
+
+console.log("----------------------------------")
+
+for(let i=10; i<=50; i++){
+    if(i%7===0)
+        {
+           console.log(i);
+        }
+}
+    
+console.log("----------------------------------")
+
+let a=10;
+do{
+    console.log(a);
+    a++;
+}while(a>20);
+
