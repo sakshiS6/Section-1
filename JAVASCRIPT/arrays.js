@@ -37,6 +37,7 @@ movies.shift();//remove from the begining
 
 console.log(movies);
 
+//splice can replace and remove the element
 // movies.splice(2,2);//removes 2 elements starting from index 2
 movies.splice(2 ,2,'Kalki','OMG',"Spider Man");//removes 2 elements starting from index 2 and insert some elements
 console.log(movies);
