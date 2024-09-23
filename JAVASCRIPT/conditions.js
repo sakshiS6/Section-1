@@ -6,6 +6,10 @@ else{
     console.log("You can not vote")
 }
 
+//-----------------------------------
+
+console.log(age>=18 ? "adult" : "not adult");//Ternary operator
+
 
 //----------------------------------------------
 
@@ -44,5 +48,4 @@ if(n%2==0){
 }else{
     console.log("Odd")
 }
-
 

@@ -50,6 +50,7 @@ for(let j=0;j<fruit.length;j++){
 }
 
 console.log("----------------------------------")
+
 let fruits2=["a","b","h","o"]
 for(let f of fruits2){
     console.log(f)
@@ -88,4 +89,5 @@ do{
     console.log(a);
     a++;
 }while(a>20);
+
 
