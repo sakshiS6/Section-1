@@ -1,0 +1,25 @@
+h1{
+    color: rgb(104, 15, 15);
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: whitesmoke;
+    color:whitesmoke;
+    text-align: center;
+}
+button{
+    background-color: whitesmoke;
+    color:rgb(232, 144, 144);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.content-box{
+    border: black;
+    background-color: rgb(232, 144, 144);
+    width: 50rem;
+    padding: 20px;
+}
