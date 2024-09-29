@@ -2,6 +2,10 @@ h1{
     color: rgb(104, 15, 15);
     text-align: center;
 }
+.heading1{
+    color: rgb(104, 15, 15);
+    text-align: center;
+}
 body{
     display: flex;
     justify-content: center;
@@ -17,9 +21,16 @@ button{
     border-radius: 5px;
     padding: 10px;
 }
-.content-box{
+#content-box{
     border: black;
     background-color: rgb(232, 144, 144);
     width: 50rem;
     padding: 20px;
+}
+.Class{
+    background-color: aqua;
+    
+}
+.newClass{
+    background-color: blue;
 }
